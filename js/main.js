@@ -11,13 +11,11 @@ function getRandomIntInclusive(min, max) {
 getRandomIntInclusive();
 
 
-const STR;
-const MAX_LENGTH;
+let str;
+let maxlength;
 
-function checkLengthComment(STR, MAX_LENGTH) {
-  if (STR.length <= MAX_LENGTH) {
-    return true;
-  }
-  return false;
+function checkLengthComment(str, maxlength) {
+  return str.length <= maxlength;
 }
 checkLengthComment();
+
