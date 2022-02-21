@@ -9,5 +9,5 @@ function getRandomIntInclusive(min, max) { // первая ф-ия
 getRandomIntInclusive();
 function checkLengthComment(str, maxlength) {
   return str.length <= maxlength;
-}      
-checkLengthComment();
+}
+checkLengthComment();// 2я ф-ия
