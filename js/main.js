@@ -10,4 +10,4 @@ getRandomIntInclusive();
 function checkLengthComment(str, maxlength) {
   return str.length <= maxlength;
 }
-checkLengthComment();// 2я ф-ия
+checkLengthComment();
