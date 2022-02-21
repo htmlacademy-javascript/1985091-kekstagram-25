@@ -1,4 +1,4 @@
-function getRandomIntInclusive(min, max) {
+function getRandomIntInclusive(min, max) { // первая ф-ия
   min = Math.ceil(min);
   max = Math.floor(max);
   if (min >= max || min < 0) {
