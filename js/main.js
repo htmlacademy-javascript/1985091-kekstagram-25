@@ -1,2 +1,2 @@
-import {photosMock} from './data.js';
-photosMock();
+import {render} from './data.js';
+render();

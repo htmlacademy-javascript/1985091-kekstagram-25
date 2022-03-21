@@ -40,7 +40,7 @@ const createCommetsObject = () => ({
 
 const createPhoto = () => ({
   id: getUniqueNumber(userId)[0],
-  url: `photos/${getUniqueNumber(userUrl)}.png`,
+  url: `photos/${getUniqueNumber(userUrl)}.jpg`,
   likes: getRandomIntInclusive(15, 200),
   description: DESCRIPTION[getRandomIntInclusive(0, DESCRIPTION.length - 1)],
   comments: Array.from({length: getRandomIntInclusive(1, 10)}, createCommetsObject)
@@ -48,3 +48,4 @@ const createPhoto = () => ({
 const photosMock = Array.from({length: 25}, createPhoto);
 
 export{photosMock};
+
