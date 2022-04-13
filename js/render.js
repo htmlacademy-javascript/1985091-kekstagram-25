@@ -8,12 +8,12 @@ function render() {
     const element = template.cloneNode(true);
     const picture = element.querySelector('.picture__img');
     picture.setAttribute('src', postObj.url);
-    fragment.appendChild(picture);
 
     element.querySelector('.picture__likes').textContent = postObj.likes;
     element.querySelector('.picture__comments').textContent = postObj.comments.length;
 
     fragment.appendChild(element);
   });
+  document.querySelector('.pictures').append(fragment);
 }
 export {render};

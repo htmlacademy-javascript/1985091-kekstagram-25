@@ -48,4 +48,3 @@ const createPhoto = () => ({
 const photosMock = Array.from({length: 25}, createPhoto);
 
 export{photosMock};
-
